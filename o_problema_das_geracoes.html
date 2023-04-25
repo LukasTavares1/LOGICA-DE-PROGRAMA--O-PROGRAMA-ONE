@@ -1,0 +1,24 @@
+<meta charset="UTF-8">
+
+<script>
+
+	function pularLinha(){
+	
+		document.write("<br>");
+	
+	}
+	
+	function mostra(frase){
+	
+		document.write(frase);
+		pularLinha();
+		
+	}
+	
+	var anoPrimeiraGeracao = 1500;
+	var anoAtual = 2023;
+	var quantidadeGeracoes = (anoAtual - anoPrimeiraGeracao)/28;
+	
+	mostra("A quantidade de gerações que se passaram foi de " + quantidadeGeracoes);
+
+</script>
